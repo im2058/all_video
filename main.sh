@@ -15,6 +15,8 @@ do
 		echo tencent && mkdir -p $downdir/$txt && cd $plat && ./tencent.sh -i $homeurl -b $bt -e $et -d $downdir/$txt
 	elif [[ `echo $homeurl | grep -q "xigua" && echo $? ` = 0 ]]; then
 		echo "xigua $basedir"   && mkdir -p $downdir/$txt && cd $plat && ./toutiao.sh -i $homeurl -b $bt -e $et -d $downdir/$txt
+	elif [[ `echo $homeurl | grep -q "youtube" && echo $? ` = 0 ]]; then
+		echo "Youtube"   && mkdir -p $downdir/$txt && cd $plat && ./youtube.sh -i $homeurl -b $bt -e $et -d $downdir/$txt
 	fi												
 	done < $src/$txt
 done
