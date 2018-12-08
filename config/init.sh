@@ -5,7 +5,7 @@ sudo cp ./smb.conf /etc/samba/
 sudo service smbd restart
 sudo chmod -R 777 ../download
 sudo chmod -R 777 ../source
-sudo chmod 755 ../download/update.log
+sudo chmod 755 ../download/update.txt
 ma=`cat ../download/mail.txt`
 sudo cp ../py_script/ip.pybak ../py_script/ip.py
 sed -i "s/AA/$ma/g" ../py_script/ip.py
