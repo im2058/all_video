@@ -10,7 +10,7 @@ ma=`cat ../download/mail.txt`
 sudo cp ../py_script/ip.pybak ../py_script/ip.py
 sed -i "s/AA/$ma/g" ../py_script/ip.py
 ipa=`ifconfig | grep "broadcast" | sed 's/inet\(.*\)netmas.*/\1/g'`
-python ../py_script/ip.py "$ipa" "source_and_download dir"
+../py_script/ip.py "$ipa" "source_and_download dir"
 #crontab -e 
 #*/30 * * * * cd /home/pi/KK/xigua && bash xigua.sh > tmp/cron.log
 #* 19 * * 5 cd /home/pi/KK/xigua/config && bash sendme.sh

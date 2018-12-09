@@ -1,4 +1,4 @@
-#!/usr/bin/python 
+#!/usr/bin/python3.5 
 import sys
 import smtplib
 from email.mime.text import MIMEText
