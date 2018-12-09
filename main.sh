@@ -22,4 +22,5 @@ do
 done
 rm -rf $plat/tmp_*
 rm -rf $plat/video_html
+kill -9 `ps | sed -n '/sslocal/p' | awk '{print $1}'`
 

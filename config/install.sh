@@ -10,5 +10,4 @@ sudo apt-get install -y python3-dev build-essential libssl-dev libffi-dev libxml
 sudo apt-get install -y python3 python3-pip aria2 ntfs-3g
 sudo pip3 install pyquery you-get
 sudo rm -f /usr/bin/python
-sudo ln -s /usr/bin/python3.5 /usr/bin/python
 

@@ -1,0 +1,4 @@
+INFO: loading config from ../download/config.json.txt
+2018-12-09 06:39:49 INFO     loading libcrypto from libcrypto.so.1.1
+2018-12-09 06:39:49 INFO     starting local at 127.0.0.1:1080
+2018-12-09 06:39:49 INFO     connecting www.youtube.com:443 from 127.0.0.1:38922
