@@ -1,0 +1,1051 @@
+
+<!DOCTYPE html>
+<!--[if lte IE 6 ]> <html class="ie ie6 lte_ie7 lte_ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 lte_ie7 lte_ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 lte_ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9" lang="zh-CN"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="zh-CN"> <!--<![endif]-->
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>宝宝爱看动画的个人频道 - 视频列表</title>
+	<script>
+	if(~window.location.protocol.indexOf('https')) {
+		window.location.href = window.location.href.replace(/^https/g, 'http')
+	}
+	</script>
+	<meta name="keywords" content="腾讯视频,电影,电视剧,综艺,新闻,财经,音乐,MV,高清,视频,在线观看" />
+	<meta name="description" content="" />
+	<link rel="shortcut icon" href="http://v.qq.com/favicon.ico" />
+<link rel="stylesheet" href="http://vm.gtimg.cn/tencentvideo_v1/vstyle/web/v3/style/base.css?t=20160324"  />
+<link rel="stylesheet" href="http://vm.gtimg.cn/tencentvideo/vstyle/web/v3/style/vplus/vplus_v2.css?t=20160324"  />
+<link rel="stylesheet" href="http://vm.gtimg.cn/tencentvideo_v1/vstyle/web/v3/style/x_reward.css?t=20160324"  />
+<!--[if IE 6]>
+<script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script>
+<![endif]-->
+<script type="text/javascript">
+	try{
+		document.domain="qq.com"
+	}catch(e){}
+	function picerr(obj,i){
+		obj.onerror=null;
+		var src = '';
+		switch(i) {
+		case 1: src = 'http://i.gtimg.cn/qqlive/images/20150608/pic_v.png'; break; // 竖图
+		case 2: src = 'http://i.gtimg.cn/qqlive/images/20150608/pic_h.png'; break; // 横图
+		default: src = 'http://i.gtimg.cn/qqlive/images/20150608/pic_h.png'; break;
+		}
+		obj.src = src;
+	}
+	var d0 = new Date();
+	var timePoints=new Array();
+	function _sreport(){
+		if(Math.random()<0.1){ 
+			var s = [];
+			for(var i=0;i<timePoints.length;i++)
+			if(!!timePoints[i]){
+				s.push((i+1)+"="+(timePoints[i]-d0));
+			}
+			var url = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=1422&flag2=202&flag3=33&"+s.join("&");		 
+			window._speed_img = new Image();
+			window._speed_img.src=url;
+		}
+	}
+	
+	(function(){
+		var ua = navigator.userAgent;
+		var istablet = /android/i.test(ua) && !/mobile/i.test(ua);
+		if (!istablet && /(android)|(iphone)|(ipod)/i.test(ua) && (!/mi pad/i.test(ua)) ) {
+			try {
+				var a = location.href;
+				var arr = a.match(/\w+\/vplus\/(\w+)\/?/);
+				var name = arr[1]
+				if (name) {
+					location.replace('http://m.v.qq.com/x/vplus/'+name)
+				}
+			} catch (d) {
+			
+			}
+		}
+	})();
+</script>
+</head>
+<body class="page_user_center user_vplus">
+<div class="site_head_simple site_head_simple_promotion" id="head_v3">
+	<div class="head_inner">
+		<h1 class="site_logo"><a href="http://v.qq.com/" class="link_logo"><strong class="link_inner">腾讯视频</strong></a></h1>
+  <div class="promotion_logo">
+  <a target="_blank" href="http://v.qq.com/detail/4/46603.html" class="link_promotion">
+  <img src="http://puui.qpic.cn/tv/0/3108028_4560/0">
+  <span class="link_inner">《花样姐姐》</span>
+  </a>
+  <!--[if !IE]>|xGv00|ecf94092f874b3d59222f05f5f3b496e<![endif]-->
+  </div>
+		<!-- 导航 开始 -->
+		<div class="navigation_simple">
+		<div class="navigation_main">
+		<div class="navigation_inner cf">
+  <ul class="navigation_area"> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/movie" _hot="{pagetype}.mininav.movie" class="link_nav"><span class="link_inner">电影</span><i class="nav_sign"></i></a>
+	</li> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/tv" _hot="{pagetype}.mininav.tv" class="link_nav"><span class="link_inner">电视剧</span><i class="nav_sign"></i></a>
+	</li> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/variety" _hot="{pagetype}.mininav.variety" class="link_nav"><span class="link_inner">综艺</span><i class="nav_sign"></i></a>
+	</li> </ul><!--[if !IE]>|xGv00|637e81d9f45a288bfb530c146ca4d5ec<![endif]-->
+  <ul class="navigation_area"> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/ent/" _hot="{pagetype}.mininav.ent" class="link_nav"><span class="link_inner">娱乐</span><i class="nav_sign"></i></a>
+	</li> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/music/" _hot="{pagetype}.mininav.mv" class="link_nav"><span class="link_inner">音乐</span><i class="nav_sign"></i></a>
+	</li> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/cartoon/" _hot="{pagetype}.mininav.cartoon" class="link_nav"><span class="link_inner">动漫</span><i class="nav_sign"></i></a>
+	</li> </ul><!--[if !IE]>|xGv00|930ea97db857b757f914c41983b7e2a1<![endif]-->
+  <ul class="navigation_area navigation_area_last"> <li class="list_item">
+		<a target="_blank" href="http://film.qq.com/" _hot="{pagetype}.mininav.holly" class="link_nav"><span class="link_inner">好莱坞</span><i class="nav_sign"></i></a>
+	</li> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/tv/yingmei/" _hot="{pagetype}.mininav." class="link_nav"><span class="link_inner">英美剧</span><i class="nav_sign"></i></a>
+	</li> <li class="list_item">
+		<a target="_blank" href="http://v.qq.com/program/" _hot="{pagetype}.mininav.tenpd" class="link_nav"><span class="link_inner">腾讯出品</span><i class="nav_sign"></i></a>
+	</li> </ul><!--[if !IE]>|xGv00|3fb1f5397e5c8d9438d29eaf0fc48995<![endif]-->
+		</div>
+		<div class="navigation_more" data-hovercls="navigation_more_hover" id="modNavChannels">
+		<a href="javascript:;" class="link_more" id="modSimpleNavMore"><span class="more_inner">更多</span><i class="triangle_right"></i></a>
+		<div class="pop_more">
+<div class="pop_cont">
+	<ul class="pop_list">
+<li class="list_hide"><a target="_blank" href="http://film.qq.com" class="pop_link" tabindex="-1" _hot="{pagetype}.mini.other.hlw"><span class="link_inner">好莱坞</span></a></li>	<li><a target="_blank" href="http://v.qq.com/sports/" _hot="{pagetype}.mini.other.1" class="pop_link"><span class="link_inner">体育</span></a></li>	<li><a target="_blank" href="http://v.qq.com/dv/" _hot="{pagetype}.mini.other.2" class="pop_link"><span class="link_inner">微电影</span></a></li>	<li><a target="_blank" href="http://v.qq.com/doco/" _hot="{pagetype}.mini.other.3" class="pop_link"><span class="link_inner">纪录片</span></a></li>	<li><a target="_blank" href="http://v.qq.com/fashion/" _hot="{pagetype}.mini.other.4" class="pop_link"><span class="link_inner">时尚</span></a></li>	<li><a target="_blank" href="http://v.qq.com/rank/index/-1_-1_-1.html" _hot="{pagetype}.mini.other.5" class="pop_link"><span class="link_inner">排行榜</span></a></li>	<li><a target="_blank" href="http://v.qq.com/finance/" _hot="{pagetype}.mini.other.6" class="pop_link"><span class="link_inner">财经</span></a></li>	<li><a target="_blank" href="http://v.qq.com/tv/korea/" _hot="{pagetype}.mini.other.7" class="pop_link"><span class="link_inner">韩剧</span></a></li>	</ul>
+		<ul class="pop_list"><li class="list_hide"><a target="_blank" href="http://v.qq.com/tv/yingmei/" class="pop_link" tabindex="-1" _hot="{pagetype}.mini.other.atv"><span class="link_inner">英美剧</span></a></li>	<li><a target="_blank" href="http://v.qq.com/news/" _hot="{pagetype}.mini.other.8" class="pop_link"><span class="link_inner">新闻</span></a></li>	<li><a target="_blank" href="http://v.qq.com/games/" _hot="{pagetype}.mini.other.9" class="pop_link"><span class="link_inner">游戏</span></a></li>	<li><a target="_blank" href="http://v.qq.com/life/" _hot="{pagetype}.mini.other.10" class="pop_link"><span class="link_inner">生活</span></a></li>	<li><a target="_blank" href="http://v.qq.com/travel/" _hot="{pagetype}.mini.other.11" class="pop_link"><span class="link_inner">旅游</span></a></li>	<li><a target="_blank" href="http://v.qq.com/videoplus/" _hot="{pagetype}.mini.other.12" class="pop_link"><span class="link_inner">原创</span></a></li>	<li><a target="_blank" href="http://v.qq.com/bar/index" _hot="{pagetype}.mini.other.13" class="pop_link"><span class="link_inner">饭团</span></a></li>	<li><a target="_blank" href="http://class.qq.com/" _hot="{pagetype}.mini.other.14" class="pop_link"><span class="link_inner">精品课</span></a></li>	</ul>
+		<ul class="pop_list"><li class="list_hide"><a target="_blank" href="http://v.qq.com/program/" class="pop_link" tabindex="-1" _hot="{pagetype}.mini.other.program"><span class="link_inner">腾讯出品</span></a></li>	<li><a target="_blank" href="http://v.qq.com/class/" _hot="{pagetype}.mini.other.15" class="pop_link"><span class="link_inner">微讲堂</span></a></li>	<li><a target="_blank" href="http://v.qq.com/fun/" _hot="{pagetype}.mini.other.16" class="pop_link"><span class="link_inner">搞笑</span></a></li>	<li><a target="_blank" href="http://v.qq.com/paike/" _hot="{pagetype}.mini.other.17" class="pop_link"><span class="link_inner">拍客</span></a></li>	<li><a target="_blank" href="http://v.qq.com/baby/index.html" _hot="{pagetype}.mini.other.18" class="pop_link"><span class="link_inner">育儿</span></a></li>	<li><a target="_blank" href="http://v.qq.com/live/sport/list.html" _hot="{pagetype}.mini.other.19" class="pop_link"><span class="link_inner">直播</span></a></li>	<li><a target="_blank" href="http://v.qq.com/tech/" _hot="{pagetype}.mini.other.20" class="pop_link"><span class="link_inner">科技</span></a></li>	<li><a target="_blank" href="http://v.qq.com/livemusic/" _hot="{pagetype}.mini.other.21" class="pop_link"><span class="link_inner">演唱会</span></a></li> </ul>
+</div><!--[if !IE]>|xGv00|11d3698fb8606858d7a47eb39e749231<![endif]-->
+		</div>
+		</div>
+		</div>
+		</div>
+		<!-- 导航 结束 -->
+		<div class="mod_search">
+		<form action="http://v.qq.com/search.html" method="get" target="_blank" class="search_form cf" name="sform" id="sform">
+		<div class="search_inner" role="search">
+		<label class="search_label" for="keywords">搜索关键词</label>
+		<i class="ico_search"></i>
+		<input type="hidden" name="pagetype" value="3" id="hid_srh_p">
+		<input type="hidden" name="stj2" value="search.search" id="searchbox_hid_tj2btn">
+		<input type="hidden" name="stag" value="txt.index" id="searchbox_hid_stag">
+		<input type="text" id="iWord" class="search_ipt" name="ms_key" maxlength="40" value="重生之名流巨星" autocomplete="off" placeholder ="重生之名流巨星" x-webkit-speech="" x-webkit-grammar="builtin:search" lang="zh-CN" onfocus='if((typeof txv == "undefined" || typeof txv.common == "undefined" || !txv.common.initPageFlag) && this.value=="重生之名流巨星"){this.value="";}' onblur='if((typeof txv == "undefined" || typeof txv.common == "undefined" || !txv.common.initPageFlag) && this.value==""){this.value="重生之名流巨星";}' /><!--[if !IE]>|xGv00|7f0017ed78c199f238c54b04e88dce0e<![endif]-->
+		<button class="search_btn" type="submit" _hot="{pagetype}.mini.search"><span class="btn_inner">搜索</span></button>
+		<!-- 搜索提示浮层 开始 -->
+		<div class="search_suggest_wrap" style="display: none;" id="modHeadSearchSuggest">
+		<div class="mod_pop mod_pop_suggest" style="display: none;" id="mod_keywords_list">
+		<ul id="sgt_list" style="display: none;"></ul>
+		</div>
+		</div>
+		<!-- 搜索提示浮层 结束 -->
+		</div>
+		<!-- 顶部搜索框 结束 -->
+		</form>
+		</div>
+		<!-- 快捷入口 开始 -->
+		<div class="mod_quick cf">
+		<div class="quick_item quick_history" id="modHistory">
+		<a href="http://v.qq.com/u/history/" class="quick_link _checklogin" target="_blank"  id="toggleHistory" _hot="{pagetype}.mini.history"><i class="ico_history_26"></i><span class="quick_txt">看过</span><i class="divide"></i></a>
+		<!-- 历史播放浮层 开始 -->
+		<div class="mod_quick_pop mod_pop_history" id="history_pop">
+		<div class="quick_pop_inner">
+		<i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+		<div class="pop_info_content" id="modHistoryContent">
+		</div>
+		</div>
+		</div>
+		<!-- 历史播放浮层 结束 -->
+		</div>
+		<div class="quick_item quick_attention" id="mod_head_favorites">
+		<a href="http://v.qq.com/u/playlist.html" target="_blank" class="quick_link _checklogin" id="mod_head_favorites_trigger" _hot="{pagetype}.mini.follow"><i class="ico_collect_26"></i><span class="quick_txt">看单</span><i class="divide"></i></a>
+		<!-- 收藏列表浮层 开始 -->
+		<div class="mod_quick_pop mod_pop_attention" id="mod_head_favorites_pop">
+		<div class="quick_pop_inner">
+		<i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+		<div class="pop_info_content" id="mod_head_favorites_content">
+		</div>
+		</div>
+		</div>
+		<!-- 收藏列表浮层 结束 -->
+		</div>
+		<div class="quick_item quick_upload" id="mod_head_upload">
+		<a href="http://v.qq.com/u/upload.html" target="_blank" class="quick_link _checklogin" _hot="{pagetype}.mini.upload" id="mod_head_upload_trigger"><i class="ico_upload_26"></i><span class="quick_txt">上传</span><i class="divide"></i></a>
+		<div class="mod_quick_pop mod_pop_upload" id="mod_head_upload_pop">
+		<div class="quick_pop_inner">
+		<i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+		<div class="pop_info_content" id="mod_head_upload_content">
+		<!-- 上传列表内容 开始 -->
+		<ul class="head_upload_list">
+		<li class="item"><i class="icon_upload"></i><a href="http://v.qq.com/boke/upload.html" target="_blank" class="inner" _hot="{pagetype}.mini.popupload">上传视频</a></li>
+		<li class="item"><i class="icon_vmanage"></i><a href="http://v.qq.com/u/videos.html" target="_blank" class="inner" _hot="{pagetype}.mini.popguanli">视频管理</a></li>
+		</ul>
+		<!-- 上传列表内容 结束 -->
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="quick_item quick_user" id="mod_head_user">
+		<a href="http://v.qq.com/u/" class="quick_link _checklogin" _hot="{pagetype}.mini.mytv" id="mod_head_notice_trigger"><img src="http://imgcache.gtimg.cn/tencentvideo_v1/vstyle/web/v3/style/images/default_avatar.png" data-type="avatar" data-avatarsize="40"><i class="ico_vip_grey" data-type="viplogo" style="display:none;"></i><i class="icon_account_qq20" data-type="account_type_logo" style="display: none;"></i><sup class="dot_notice" id="mod_nav_user_notice_dot" style="display:none;"></sup></a>
+		<div class="mod_quick_pop mod_pop_user" id="mod_head_notice_pop">
+		<div class="quick_pop_inner pop_info_main">
+		<i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+		<div class="pop_info_content">
+		<div class="quick_pop_user">您好，<a href="http://v.qq.com/u/" class="user_name _nickname"></a><a href="javascript:;" class="link_quit" title="退出" data-type="logout">【退出】</a></div>
+<div class="quick_pop_account" id="mod_head_vipInfo" style="display:none;">
+</div>
+<div class="quick_pop_btnopen" id="mod_head_vipPay" style="display:none;">
+	<a href="javascript:;" class="btn_open">开通好莱坞会员</a>
+</div>
+<div class="quick_pop_moneybag" id="mod_head_moneybag" style="display:none">
+  <div class="quick_pop_moneybag_in">
+  <h4>钱包余额：</h4>
+  <ul class="cf">
+  <li><a href="http://v.qq.com/u/wallet/" class="link"><i class="icon-diamond"></i><span class="text _diamond">0 钻石</span></a></li>
+  <li class="last"><a href="http://v.qq.com/u/wallet/" class="link"><i class="icon-vcoin"></i><span class="text _vcoin">0 V币</span></a></li>
+  </ul>
+  </div>
+</div>
+		<div class="info_content_inner"  id="mod_head_notice_content"></div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<!-- 快捷入口 结束 -->
+	</div>
+	<div class="head_bottom"><div class="inner"></div></div>
+</div>
+<!--[if !IE]>|xGv00|881fec3858eb6d409029476544272617<![endif]-->
+<!-- 设置背景 开始 -->
+<div class="mod_setbg " id="editBgimgPop" style="display:;">
+	<div class="mod_setbg_head">
+		<div class="mod_setbg_head_inner">
+		<div class="setbg_head_title">设置背景图</div>
+		<div class="setbg_head_control">
+		<!-- <i class="ico_loading"></i> -->
+		<p class="setbg_head_txt" id="bgimg_err_tips"></p>
+		<a href="javascript:void(0);" class="btn_cancle"><span>取消</span></a>
+		<a href="javascript:void(0);" class="btn_save" id="saveBg"><span>保存</span></a>
+		</div>
+		</div>
+	</div>
+	<div class="mod_setbg_cont">
+		<div class="mod_setbg_cont_inner" id="mod_setbg_cont_inner">
+		<div class="setbg_box setbg_box_upload">
+		<div class="setbg_box_head"><span class="setbg_box_head_inner">网页效果预览</span></div>
+		<div class="setbg_box_cont">
+		<div class="mod_previewimg mod_previewimg_hasimg"><!-- 已有预览图需要添加类名 mod_previewimg_hasimg -->
+		<div class="previewimg_wrap">
+		<!-- 无预览图模块 开始 -->
+		<div class="previewimg_empty">
+		<i class="ico_previewimg"></i>
+		<p class="previewimg_empty_txt">上传背景图可更好的宣传品牌形象</p>
+		</div>
+		<!-- 无预览图模块 结束 -->
+		<div class="previewimg_img">
+		<img id="bgPreview" src="http://tacs_v1.oa.com/img.php?240x136" />
+		<a href="javascript:void(0);" class="btn_delimg" title="删除" id="deletePreViewBg" style="display:none;"><span class="btn_inner">删除</span></a>
+		<div class="previewimg_mask" id="imgLoading"><i class="ico_loading"></i></div>
+		</div>
+		</div>
+		</div>
+		<div class="mod_uploadimg">
+		<form name="uploadbgform" id="uploadbgform" action="http://uu.video.qq.com/v1/uploadimgtpl" target="uploadbgifr" method="post" enctype="multipart/form-data">
+		<a href="javascript:void(0);" class="btn_upload"><i class="ico_arrow_up"></i><span id="selectBgText">选择图片</span></a>
+		<div class="btn_flash_html5"><input type="file" name="img" class="btn_flash_html5_input" id="submitBgimgFile" /></div>
+		<input id="bgimg_uin" name="uin" type="hidden" class="border_1"><!--uin-->
+		<input id="bgimg_opt" name="opt" type="hidden" class="border_1" value="2"><!--bg-->
+		<input type="hidden" id="bgimg_ot" name="ot" value="1" />
+		<input type="hidden" id="bgimg_g_tk" name="g_tk" />
+		<p class="uploadimg_txt">支持jpg、jpeg、png格式，大小2M以内</p>
+		<p class="uploadimg_txt">尺寸不小于1240 x 360像素</p>
+		<!-- <p class="uploadimg_txt">背景图高度大于300像素</p> -->
+		</form> <iframe name="uploadbgifr" style="display:none;"></iframe>
+		</div>
+		<ul class="set_box_list" style="display:none;">
+		<!-- <li class="list_item">
+		<label class="list_lbl">图片显示：</label>
+		<input type="checkbox" class="box_form_cbx" id="setbg_img_view_fixed"><label class="box_form_lbl" for="setbg_img_view_fixed">拉伸</label>
+		</li> -->
+		<li class="list_item">
+		<label class="list_lbl">头部高度：</label>
+		<div class="mod_cutimg_zoom">
+		<div class="cutimg_zoom_contrl" id="cutimg_zoom_contrl"><div class="cutimg_zoom_contrl_inner" style="width:0;" id="leftside"></div><b class="cutimg_zoom_btn" style="0;" id="selector"></b></div><!-- 用百分百，同时设置 cutimg_zoom_contrl_inner的宽度值 和 cutimg_zoom_btn的定位left值 -->
+		</div>
+		<span class="list_txt" id="btn_px"></span>
+		</li>
+		</ul>
+		</div>
+		</div>
+		<div class="setbg_box setbg_box_setimg">
+		<div class="setbg_box_head"><span class="setbg_box_head_inner">手机效果预览</span></div>
+		<div class="setbg_box_cont">
+		<div class="mod_previewimg mod_previewimg_phone mod_previewimg_hasimg"><!-- 已有预览图需要添加类名 mod_previewimg_hasimg -->
+		<div class="previewimg_wrap">
+		<!-- 无预览图模块 开始 -->
+		<div class="previewimg_empty" style="display:none">
+		<i class="ico_previewimg"></i>
+		<p class="previewimg_empty_txt">手机效果显示区域</p>
+		</div>
+		<!-- 无预览图模块 结束 -->
+		<div class="previewimg_img">
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="240" height="136" id="mPicUpload" align="middle">
+		<param name="allowScriptAccess" value="always" />
+		<param name="allowFullScreen" value="true" />
+		<param name="movie" value="http://qzs.qq.com/tencentvideo_v1/swf/VPlusBgUpload.swf" />
+		<param name="quality" value="high" />
+		<param name="wmode" value="transparent" />
+		<param name="bgcolor" value="#000000" />
+		<embed id="mPicUpload" src="http://qzs.qq.com/tencentvideo_v1/swf/VPlusBgUpload.swf" quality="high" bgcolor="#000000" wmode="transparent" width="240" height="136" name="mPicUpload" align="middle" menu="true" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+		</object>
+		</div>
+		</div>
+		</div>
+		<div class="setbg_box_desc"><p>高亮区域为手机显示效果<br>拖动可改变背景选择区域</p></div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 设置背景 结束 -->
+<div class="site_cover" id="headBgMod">
+	<div class="cover_inner">
+		<div class="mod_cover_user">
+		<div class="cover_bg" id="bg_img" style="background-image:url(http://i.gtimg.cn/qqlive/images/vplus/bg_default.jpg);"></div>
+		<div class="cover_mask"></div>
+		<div class="mod_user_info">
+		<div class="user_info">
+		<div class="user_avatar">
+		<span class="a_avatar" href="javascript:void(0);" title="" id="editAvatarBtn_tmp" ><img id="userAvatar" src="http://inews.gtimg.com/newsapp_ls/0/2756647108_200200/0"></span>
+		</div>
+		<p class="user_name"><span class="txt" id="userInfoNick">宝宝爱看动画</span> <a class="ico_vplus"></a></p>
+		<div class="user_intro">
+		<div class="intro_txt">
+		<span class="txt">快让宝宝进来看看动画吧！</span>
+		</div>
+		<div class="pop_intro">
+		<span class="intro_arrow_up"></span>
+		<p class="txt">快让宝宝进来看看动画吧！</p>
+		</div>
+		</div>
+		<ul class="user_count">
+		<li><span class="txt">订阅</span> <span class="num j_rss_count">9543</span></li>
+		<li class="line">|</li>
+		<li><span class="txt">视频</span> <span class="num">1387</span></li>
+		<li class="line">|</li>
+		<li><span class="txt">专辑</span> <span class="num">0</span></li>
+		<li class="line">|</li>
+		<li><span class="txt">播放量</span> <span class="num">2626.6万</span></li>
+		</ul>
+		<div class="user_collect_share" vmode="guest" style="display:none;">
+		<span class="sns_btn">
+		<a class="ico_collect" href="javascript:void(0);" title="订阅" vmode="guest" id="rss_mod" data-vuin="27ede8eb3593fc2ab1f4158faf187d3f" data-act="set" _hot="vc.subscribe">订阅</a>
+		</span>
+		<span class="sns_btn">
+		<a class="ico_share" href="javascript:void(0);" title="分享" id="btn_head_share">分享</a>
+		</span>
+		<ul class="sns_icon cf" id="mod_head_shares">
+		<li>
+		<a class="btn_share" href="javascript:;" tid="wechat" data-tid="wechat" title="分享到微信" _hot="vc.info.share.wechat"><i class="ico_sns_s22 ico_wechat_s22">微信</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="qzone" data-tid="qzone" title="分享到QQ空间" _hot="vc.info.share.qzone"><i class="ico_sns_s22 ico_qzone_s22">QQ空间</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="qq" data-tid="qq" title="分享给QQ好友" _hot="vc.info.share.qq"><i class="ico_sns_s22 ico_qq_s22">QQ</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="tencentweibo" data-tid="tencentweibo" title="分享到腾讯微博" _hot="vc.info.share.tencentweibo"><i class="ico_sns_s22 ico_tencentweibo_s22">腾讯微博</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="sinaweibo" data-tid="sinaweibo" title="分享到新浪微博" _hot="vc.info.share.sinaweibo"><i class="ico_sns_s22 ico_sinaweibo_s22">新浪微博</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="douban" data-tid="douban" title="分享到豆瓣" _hot="vc.info.share.douban"><i class="ico_sns_s22 ico_douban_s22">豆瓣</i></a>
+		</li>
+		</ul>
+		</div>
+		</div>
+		</div>
+		<div class="share_qr" style="visibility:hidden;">
+		<span class="qr_pic" id="qrcode_info_header"></span>
+		<p class="qr_txt">微信分享给好友</p>
+		</div>
+		</div>
+		<div class="mod_tab_list">
+		<ul class="tab_list">
+		<li class="">
+		<a href="/vplus/27ede8eb3593fc2ab1f4158faf187d3f" _hot="vc.tab.home"><span>首页</span></a>
+		</li>
+		<li class="current">
+		<a href="/vplus/27ede8eb3593fc2ab1f4158faf187d3f/videos" _hot="vc.tab.videos"><span>视频</span></a>
+		</li>
+		<li class="">
+		<a href="/vplus/27ede8eb3593fc2ab1f4158faf187d3f/folders" _hot="vc.tab.folders"><span>专辑</span></a>
+		</li>
+		</ul>
+		<a class="tab_link" href="http://v.qq.com/u/videos/" vmode="host" style="display:none;" _hot="vc.link_videomanage"><i class="ico_setting"></i><span class="txt">管理视频</span></a>
+		</div>
+	</div>
+</div>
+<div class="site_cover_tco_bg" id="headBgMod_mrzz_bg" style="visibility:hidden;">
+</div>
+<div class="site_cover_tco" id="headBgMod_mrzz" style="visibility:hidden;">
+	<div class="cover_tco_inner">
+		<div class="mod_user_tco_info">
+		<div class="user_tco_info">
+		<div class="user_avatar">
+		<span class="avatar" id="editAvatarBtn_tmp">
+		<img id="userAvatar" src="http://inews.gtimg.com/newsapp_ls/0/2756647108_200200/0">
+		</span>
+		<span class="mask"></span>
+		<span class="tag_out">
+		<span class="tag_inner" id="userInfoTag"></span>
+		</span>
+		<span class="name" id="userInfoNick">宝宝爱看动画</span>
+		</div>
+		<div class="user_label" id="userInfoLabel">
+		</div>
+		<ul class="user_count">
+		<li>
+		<span class="txt">订阅</span>
+		<span class="num">9543</span>
+		</li>
+		<li class="line">|</li>
+		<li>
+		<span class="txt">视频</span>
+		<span class="num">1387</span>
+		</li>
+		<li class="line">|</li>
+		<li>
+		<span class="txt">专辑</span>
+		<span class="num">0</span>
+		</li>
+		<li class="line">|</li>
+		<li>
+		<span class="txt">播放量 </span>
+		<span class="num">2626.6万</span>
+		</li>
+		</ul>
+		<div class="user_wlj">
+		<span class="pic_wlj"></span>
+		<a href="//v.qq.com/variety/p/topic/mrzz/index.html" target="_blank;" hot="vc.mrzz.detail" class="more_link">&lt;查看更多赛道详情</a>
+		</div>
+		<div class="user_share">
+		<div class="share_qr">
+		<span class="qr_pic" id="qrcode_info_header"></span>
+		<p class="qr_txt">微信分享给好友</p>
+		</div>
+		<div class="user_collect_share" vmode="guest" style="display:none;">
+		<span class="sns_btn">
+		<a class="ico_collect" href="javascript:void(0);" title="订阅" vmode="guest" id="rss_mod" data-vuin="27ede8eb3593fc2ab1f4158faf187d3f" data-act="set" _hot="vc.subscribe">订阅</a>
+		</span>
+		<span class="sns_btn">
+		<a class="ico_share" href="javascript:void(0);" title="分享" id="btn_head_share">分享</a>
+		</span>
+		<ul class="sns_icon cf" id="mod_head_shares">
+		<li>
+		<a class="btn_share" href="javascript:;" tid="wechat" data-tid="wechat" title="分享到微信 _hot="vc.info.share.wechat""><i class="ico_sns_s22 ico_wechat_s22">微信</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="qzone" data-tid="qzone" title="分享到QQ空间" _hot="vc.info.share.qzone"><i class="ico_sns_s22 ico_qzone_s22">QQ空间</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="qq" data-tid="qq" title="分享给QQ好友" _hot="vc.info.share.qq"><i class="ico_sns_s22 ico_qq_s22">QQ</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="tencentweibo" data-tid="tencentweibo" title="分享到腾讯微博" _hot="vc.info.share.tencentweibo"><i class="ico_sns_s22 ico_tencentweibo_s22">腾讯微博</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="sinaweibo" data-tid="sinaweibo" title="分享到新浪微博" _hot="vc.info.share.sinaweibo"><i class="ico_sns_s22 ico_sinaweibo_s22">新浪微博</i></a>
+		</li>
+		<li>
+		<a class="btn_share" href="javascript:;" tid="douban" data-tid="douban" title="分享到豆瓣" _hot="vc.info.share.douban"><i class="ico_sns_s22 ico_douban_s22">豆瓣</i></a>
+		</li>
+		</ul>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="mod_tab_tco_list">
+		<ul class="tab_list">
+		<li class="">
+		<a href="/vplus/27ede8eb3593fc2ab1f4158faf187d3f" _hot="vc.tab.home"><span>首页</span></a>
+		</li>
+		<li class="current">
+		<a href="/vplus/27ede8eb3593fc2ab1f4158faf187d3f/videos" _hot="vc.tab.videos"><span>视频</span></a>
+		</li>
+		<li class="">
+		<a href="/vplus/27ede8eb3593fc2ab1f4158faf187d3f/folders" _hot="vc.tab.folders"><span>专辑</span></a>
+		</li>
+		</ul>
+		</div>
+		<a class="tab_link" href="http://v.qq.com/u/videos/" vmode="host" style="display:none;" _hot="vc.link_videomanage"><i class="ico_setting"></i><span class="txt">管理视频</span></a>
+	</div>
+</div>
+<div class="site_container">
+	<div class="container_inner">
+		<div class="wrapper">
+		<div class="mod_row mod_row_6col">
+		<div class="mod_hd">
+		<div class="mod_title">
+		<h3 class="title_text"><span class="text_medium">视频</span></h3>
+		<ul class="title_tab listorder_list">
+		<li class="item current" sorttype="0" orderflag="0"><a href="javascript:void(0);" _hot="vc.video.sort.new">最新</a></li>
+		<li class="item" sorttype="1" orderflag="1"><a href="javascript:void(0);" _hot="vc.video.sort.hot">最热</a></li>
+		</ul>
+		<span class="count_num">共1387个视频</span>
+		</div>
+		</div>
+		<div class="mod_bd">
+		<div class="mod_figures mod_figure_h mod_figure_h_190">
+		<ul class="figures_list" id="videolst_cont">
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/t08147rvwtx.html" title="《巴塔木早教合集》松饼师，那个松饼师住在哪里呢？" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/55953027/t08147rvwtx_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/t08147rvwtx.html" target="_blank">《巴塔木早教合集》松饼师，那个松饼师住在哪里呢？</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">1186</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/c0814xow5rr.html" title="《巴塔木早教合集》他就是我的小胖猫，他就是我的胖马特" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/14292967/c0814xow5rr_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/c0814xow5rr.html" target="_blank">《巴塔木早教合集》他就是我的小胖猫，他就是我的胖马特</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">241</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/w08147qbuox.html" title="《巴塔木早教合集》谁能有一个大大的椭圆的肚子呢？" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/71415050/w08147qbuox_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/w08147qbuox.html" target="_blank">《巴塔木早教合集》谁能有一个大大的椭圆的肚子呢？</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">143</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/n0814q8wuwo.html" title="《巴塔木早教合集》首先我们先拿马克笔把杰西的身体画出来" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/17285494/n0814q8wuwo_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/n0814q8wuwo.html" target="_blank">《巴塔木早教合集》首先我们先拿马克笔把杰西的身体画出来</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">94</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/l0814bw5htj.html" title="《巴塔木早教合集》首先我们需要准备好东西才行" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/22657933/l0814bw5htj_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/l0814bw5htj.html" target="_blank">《巴塔木早教合集》首先我们需要准备好东西才行</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">59</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/d0814zxycza.html" title="《巴塔木早教合集》让我们一起来捉迷藏吧，看一下谁先被找到" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/45837402/d0814zxycza_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/d0814zxycza.html" target="_blank">《巴塔木早教合集》让我们一起来捉迷藏吧，看一下谁先被找到</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">525</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/y0814z41nt9.html" title="《巴塔木早教合集》让我们一起跟着企鹅们来跳舞吧！" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/4333056/y0814z41nt9_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/y0814z41nt9.html" target="_blank">《巴塔木早教合集》让我们一起跟着企鹅们来跳舞吧！</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">162</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/o0814q46mw9.html" title="《巴塔木早教合集》让我们先用马克笔画出身体来吧！" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/47642580/o0814q46mw9_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/o0814q46mw9.html" target="_blank">《巴塔木早教合集》让我们先用马克笔画出身体来吧！</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">84</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/x0814u76c7z.html" title="《巴塔木早教合集》让我们先用马克笔画出它的身体吧！" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/69901467/x0814u76c7z_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/x0814u76c7z.html" target="_blank">《巴塔木早教合集》让我们先用马克笔画出它的身体吧！</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">55</span></span>
+		<span class="figure_info_time">2018-12-17</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/y0812s83y3x.html" title="《巴塔木早教合集》让我来当你们的导游，让我们来游玩恐龙乐园" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/47242118/y0812s83y3x_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/y0812s83y3x.html" target="_blank">《巴塔木早教合集》让我来当你们的导游，让我们来游玩恐龙乐园</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">2.9万</span></span>
+		<span class="figure_info_time">2018-12-13</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/z0812msjxlv.html" title="《巴塔木早教合集》让我们按照之前的做法来吧下一个做出来" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/26854569/z0812msjxlv_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/z0812msjxlv.html" target="_blank">《巴塔木早教合集》让我们按照之前的做法来吧下一个做出来</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">228</span></span>
+		<span class="figure_info_time">2018-12-13</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/a0812qcan92.html" title="《巴塔木早教合集》然后我们要怎么做呢？海迪小助手" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/62524154/a0812qcan92_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/a0812qcan92.html" target="_blank">《巴塔木早教合集》然后我们要怎么做呢？海迪小助手</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">113</span></span>
+		<span class="figure_info_time">2018-12-13</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/y0812o7tolu.html" title="《巴塔木早教合集》汽车的雨刷器，刷刷刷，穿过小镇子" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/91841518/y0812o7tolu_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/y0812o7tolu.html" target="_blank">《巴塔木早教合集》汽车的雨刷器，刷刷刷，穿过小镇子</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">184</span></span>
+		<span class="figure_info_time">2018-12-13</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/x08129r6ouz.html" title="《巴塔木早教合集》亲爱的妈妈不用着急我们已经把手套洗干净了" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/3793698/x08129r6ouz_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/x08129r6ouz.html" target="_blank">《巴塔木早教合集》亲爱的妈妈不用着急我们已经把手套洗干净了</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">75</span></span>
+		<span class="figure_info_time">2018-12-13</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/j0811sttnta.html" title="《巴塔木早教合集》哦！下雨了，好棒，但是要撑起雨伞哦！" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/27312210/j0811sttnta_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/j0811sttnta.html" target="_blank">《巴塔木早教合集》哦！下雨了，好棒，但是要撑起雨伞哦！</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">1141</span></span>
+		<span class="figure_info_time">2018-12-12</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/r0811xldqvn.html" title="《巴塔木早教合集》哦！我的小可爱，你怎么从一个变成一群了" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/32624505/r0811xldqvn_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/r0811xldqvn.html" target="_blank">《巴塔木早教合集》哦！我的小可爱，你怎么从一个变成一群了</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">458</span></span>
+		<span class="figure_info_time">2018-12-12</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/s081101chnu.html" title="《巴塔木早教合集》哦！海蒂你在哪里？让我们来检查一下身体吧" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/82306316/s081101chnu_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/s081101chnu.html" target="_blank">《巴塔木早教合集》哦！海蒂你在哪里？让我们来检查一下身体吧</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">248</span></span>
+		<span class="figure_info_time">2018-12-12</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/k08118clzii.html" title="《巴塔木早教合集》哦！海迪小助手你在哪儿呢？原来在这里呀" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/35334024/k08118clzii_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/k08118clzii.html" target="_blank">《巴塔木早教合集》哦！海迪小助手你在哪儿呢？原来在这里呀</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">116</span></span>
+		<span class="figure_info_time">2018-12-12</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/o0811764zwt.html" title="《巴塔木早教合集》那是什么？旋风袭击了小猪的假发" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/667359/o0811764zwt_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/o0811764zwt.html" target="_blank">《巴塔木早教合集》那是什么？旋风袭击了小猪的假发</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">959</span></span>
+		<span class="figure_info_time">2018-12-11</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/o0811ddqnzg.html" title="《巴塔木早教合集》拿上滚筒吧它碾成一个扁的椭圆形" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/18491585/o0811ddqnzg_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/o0811ddqnzg.html" target="_blank">《巴塔木早教合集》拿上滚筒吧它碾成一个扁的椭圆形</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">359</span></span>
+		<span class="figure_info_time">2018-12-11</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/x0811zvcv2t.html" title="《巴塔木早教合集》咪咪是一只小河马，所以她的腿有四条哦！" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/62492529/x0811zvcv2t_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/x0811zvcv2t.html" target="_blank">《巴塔木早教合集》咪咪是一只小河马，所以她的腿有四条哦！</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">161</span></span>
+		<span class="figure_info_time">2018-12-11</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/x0811qhqe55.html" title="《巴塔木早教合集》咪咪把手装在了身体上用英语怎么说？" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/94155739/x0811qhqe55_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/x0811qhqe55.html" target="_blank">《巴塔木早教合集》咪咪把手装在了身体上用英语怎么说？</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">120</span></span>
+		<span class="figure_info_time">2018-12-11</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/r081197brky.html" title="《巴塔木早教合集》咪咪很开心，咪咪很开心，闪耀着光芒" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/4169796/r081197brky_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/r081197brky.html" target="_blank">《巴塔木早教合集》咪咪很开心，咪咪很开心，闪耀着光芒</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">92</span></span>
+		<span class="figure_info_time">2018-12-11</span>
+		</div>
+		</li>
+		<li class="list_item">
+		<a href="https://v.qq.com/x/page/e0810wwxk83.html" title="《巴塔木早教合集》隆隆坏蛋控制了火车还想要带走能量豆" class="figure" tabindex="-1" target="_blank">
+		<img src="http://vpic.video.qq.com/93756714/e0810wwxk83_160_90_3.jpg" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">01:04</em></span>
+		</a>
+		<strong class="figure_title figure_title_two_row"><a href="https://v.qq.com/x/page/e0810wwxk83.html" target="_blank">《巴塔木早教合集》隆隆坏蛋控制了火车还想要带走能量豆</a></strong>
+		<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">990</span></span>
+		<span class="figure_info_time">2018-12-10</span>
+		</div>
+		</li>
+		</ul>
+		<div class="mod_page" id="mode_page_list"></div>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="site_footer">
+	<div class="footer_inner">
+		<div class="mod_footer_contentinfo cf">
+		<div class="contentinfo_column contentinfo_channel">
+		<em class="contentinfo_title">热门频道</em>
+		<ul>
+  <li  class='item_3'><a href='http://v.qq.com/tv/' target='_blank'  title='电视剧' _hot='{pagetype}.footbar.hot.1'>电视剧</a></li><li ><a href='http://v.qq.com/variety/' target='_blank'  title='综艺' _hot='{pagetype}.footbar.hot.2'>综艺</a></li><li ><a href='http://v.qq.com/movie/' target='_blank'  title='电影' _hot='{pagetype}.footbar.hot.3'>电影</a></li><li ><a href='http://v.qq.com/ent/' target='_blank'  title='娱乐' _hot='{pagetype}.footbar.hot.4'>娱乐</a></li><li ><a href='http://v.qq.com/music/' target='_blank'  title='MV' _hot='{pagetype}.footbar.hot.5'>MV</a></li><li ><a href='http://v.qq.com/cartoon/' target='_blank'  title='动漫' _hot='{pagetype}.footbar.hot.6'>动漫</a></li><li ><a href='http://v.qq.com/games/' target='_blank'  title='游戏' _hot='{pagetype}.footbar.hot.7'>游戏</a></li><li  class='item_3'><a href='http://film.qq.com' target='_blank'  title='好莱坞' _hot='{pagetype}.footbar.hot.8'>好莱坞</a></li><li  class='item_3'><a href='http://v.qq.com/tv/yingmei/' target='_blank'  title='英美剧' _hot='{pagetype}.footbar.hot.9'>英美剧</a></li><li  class='item_3'><a href='http://v.qq.com/doco/' target='_blank'  title='纪录片' _hot='{pagetype}.footbar.hot.10'>纪录片</a></li><li ><a href='http://v.qq.com/news/' target='_blank'  title='新闻' _hot='{pagetype}.footbar.hot.11'>新闻</a></li><li ><a href='http://v.qq.com/sports/' target='_blank'  title='体育' _hot='{pagetype}.footbar.hot.12'>体育</a></li><li ><a href='http://v.qq.com/life/' target='_blank'  title='生活' _hot='{pagetype}.footbar.hot.13'>生活</a></li><!--[if !IE]>|xGv00|aef072a915f5d98560bb17ed2dc6cd7b<![endif]-->
+		</ul>
+		</div>
+		<div class="contentinfo_column contentinfo_feature">
+		<em class="contentinfo_title">特色推荐</em>
+		<ul>
+		<li  class='item_5'><a href='//v.qq.com/videoplus/ ' target='_blank'  title='原创自媒体' _hot='{pagetype}.footbar.special.1'>原创自媒体</a></li><li  class='item_4'><a href='http://v.qq.com/program/' target='_blank'  title='腾讯出品' _hot='{pagetype}.footbar.special.2'>腾讯出品</a></li><li  class='item_3'><a href='http://v.qq.com/dv/' target='_blank'  title='微电影' _hot='{pagetype}.footbar.special.3'>微电影</a></li><li ><a href='http://v.qq.com/paike/' target='_blank'  title='拍客' _hot='{pagetype}.footbar.special.4'>拍客</a></li><li ><a href='http://v.qq.com/hotshare/' target='_blank'  title='搞笑' _hot='{pagetype}.footbar.special.5'>搞笑</a></li><!--[if !IE]>|xGv00|38245f1acd5d8f8150f6c1f5721acf8d<![endif]-->
+		</ul>
+		</div>
+		<div class="contentinfo_column contentinfo_download">
+		<em class="contentinfo_title">软件下载</em>
+		<ul>
+  <li ><a href='http://v.qq.com/download.html' target='_blank'  title='PC版' _hot='{pagetype}.footbar.download.1'>PC版</a></li><li ><a href='http://v.qq.com/mobile/download.html' target='_blank'  title='iPhone版' _hot='{pagetype}.footbar.download.2'>iPhone版</a></li><li ><a href='http://v.qq.com/mobile/download.html' target='_blank'  title='iPad版' _hot='{pagetype}.footbar.download.3'>iPad版</a></li><li ><a href='http://v.qq.com/mobile/download.html#android' target='_blank'  title='Android Phone版' _hot='{pagetype}.footbar.download.4'>Android Phone版</a></li><li ><a href='http://v.qq.com/mobile/download.html#android' target='_blank'  title='Android Pad版' _hot='{pagetype}.footbar.download.5'>Android Pad版</a></li><!--[if !IE]>|xGv00|eb18c3ebb900129aa6b3950672ac9904<![endif]-->
+		</ul>
+		</div>
+		<div class="contentinfo_column contentinfo_service">
+		<em class="contentinfo_title">服务</em>
+		<ul>
+  <li ><a href='http://kf.qq.com/product/QQlive.html' target='_blank'  title='客服' _hot='{pagetype}.footbar.service.1'>客服</a></li><li ><a href='http://support.qq.com/write.shtml?fid=616&ADPUBNO=' target='_blank'  title='反馈' _hot='{pagetype}.footbar.service.2'>反馈</a></li><li ><a href='http://v.qq.com/help/live_1.html' target='_blank'  title='帮助' _hot='{pagetype}.footbar.service.3'>帮助</a></li><li ><a href='http://v.qq.com/qinquan/q1.html' target='_blank'  title='侵权投诉' _hot='{pagetype}.footbar.service.4'>侵权投诉</a></li><!--[if !IE]>|xGv00|0cc92663c86bd3d718b9b74df3e6a5fd<![endif]-->
+		</ul>
+		</div>
+		</div>
+		<div class="mod_footer_partners cf">
+		<span class="partner_title">合作伙伴</span>
+		<div class="partner_row partner_row_centre cf">
+		<div class="partner_links">
+  <a rel='' href='http://im.qq.com/' target='_blank' title='QQ官方网站'  _hot='{pagetype}.footbar.partner1.1'>QQ官方网站</a>|<a rel='' href='http://guanjia.qq.com/?ADTAG=tr.pcmgr.vqqcom.VQQCOM' target='_blank' title='腾讯电脑管家'  _hot='{pagetype}.footbar.partner1.2'>腾讯电脑管家</a>|<a rel='' href='http://www.duba.com/' target='_blank' title='毒霸网址大全'  _hot='{pagetype}.footbar.partner1.3'>毒霸网址大全</a>|<a rel='' href='http://123.sogou.com/' target='_blank' title='搜狗网址导航'  _hot='{pagetype}.footbar.partner1.4'>搜狗网址导航</a>|<a rel='' href='http://v.2345.com/' target='_blank' title='2345影视'  _hot='{pagetype}.footbar.partner1.5'>2345影视</a>|<a rel='' href='http://www.hao123.com/' target='_blank' title='hao123'  _hot='{pagetype}.footbar.partner1.6'>hao123</a>|<a rel='' href='http://v.sogou.com/' target='_blank' title='搜狗搜索'  _hot='{pagetype}.footbar.partner1.7'>搜狗搜索</a>|<a rel='' href='http://laidian.qq.com/' target='_blank' title='来电'  _hot='{pagetype}.footbar.partner1.8'>来电</a>|<a rel='' href='http://www.soku.com/' target='_blank' title='搜库'  _hot='{pagetype}.footbar.partner1.9'>搜库</a>|<a rel='' href='http://cn.bing.com/?scope=web&FORM=BAOFEN' target='_blank' title='必应'  _hot='{pagetype}.footbar.partner1.10'>必应</a>|<a rel='' href='http://movie.douban.com/' target='_blank' title='豆瓣'  _hot='{pagetype}.footbar.partner1.11'>豆瓣</a>|<a rel='' href='http://www.mop.com/' target='_blank' title='猫扑'  _hot='{pagetype}.footbar.partner1.12'>猫扑</a>|<a rel='' href='http://tieba.baidu.com/f?kw=%CC%DA%D1%B6%CA%D3%C6%B5&tp=0' target='_blank' title='百度贴吧'  _hot='{pagetype}.footbar.partner1.13'>百度贴吧</a>|<a rel='' href='http://weibo.com/' target='_blank' title='新浪微博'  _hot='{pagetype}.footbar.partner1.14'>新浪微博</a>|<a rel='' href='http://www.guokr.com/' target='_blank' title='果壳网'  _hot='{pagetype}.footbar.partner1.15'>果壳网</a>|<a rel='' href='http://www.yixun.com/' target='_blank' title='易迅网'  _hot='{pagetype}.footbar.partner1.16'>易迅网</a>|<a rel='' href='http://www.peopledigital.com.cn/' target='_blank' title='人民数字'  _hot='{pagetype}.footbar.partner1.17'>人民数字</a>|<a rel='' href='http://v.114la.com/' target='_blank' title='114啦影视'  _hot='{pagetype}.footbar.partner1.18'>114啦影视</a>|<a rel='' href='http://www.pclady.com.cn/' target='_blank' title='太平洋时尚网'  _hot='{pagetype}.footbar.partner1.19'>太平洋时尚网</a>|<a rel='' href='http://www.jkwshk.tv/' target='_blank' title='健康卫视'  _hot='{pagetype}.footbar.partner1.20'>健康卫视</a>|<a rel='' href='http://www.haibao.com/' target='_blank' title='海报网'  _hot='{pagetype}.footbar.partner1.21'>海报网</a>|<a rel='' href='http://www.m1905.com/' target='_blank' title='电影网'  _hot='{pagetype}.footbar.partner1.22'>电影网</a>|<a rel='' href='http://www.178.com/' target='_blank' title='178游戏网'  _hot='{pagetype}.footbar.partner1.23'>178游戏网</a>|<a rel='' href='http://www.shuame.com' target='_blank' title='刷机精灵'  _hot='{pagetype}.footbar.partner1.24'>刷机精灵</a>|<a rel='' href='http://www.znds.com/' target='_blank' title='智能电视网'  _hot='{pagetype}.footbar.partner1.25'>智能电视网</a>|<a rel='' href='http://www.7po.com/' target='_blank' title='奇珀市场'  _hot='{pagetype}.footbar.partner1.26'>奇珀市场</a>|<a rel='' href='http://www.tvapk.net/' target='_blank' title='电视家'  _hot='{pagetype}.footbar.partner1.27'>电视家</a>|<a rel='' href='http://www.tvhuan.com/' target='_blank' title='欢视网'  _hot='{pagetype}.footbar.partner1.28'>欢视网</a>|<a rel='' href='http://www.ijiatv.com' target='_blank' title='智能电视'  _hot='{pagetype}.footbar.partner1.29'>智能电视</a>|<a rel='' href='http://www.shafa.com' target='_blank' title='电视应用市场'  _hot='{pagetype}.footbar.partner1.30'>电视应用市场</a><!--[if !IE]>|xGv00|9761541cdb5cd997f9598bd80c6b634d<![endif]--></div>
+		</div>
+		<div class="partner_row partner_row_bj cf">
+		<div class="partner_links"><a rel='nofollow' href='' target='_blank' title=''  _hot='{pagetype}.footbar.partner2.1'></a><!--[if !IE]>|xGv00|38990e7203a2f484d48baacf7af59235<![endif]--></div>
+		</div>
+		</div>
+		<div class="mod_footer">
+		<div class="footermenu">
+		<a href="http://www.tencent.com/" rel="nofollow" target="_blank">关于腾讯</a> | <a href="http://www.tencent.com/index_e.shtml" rel="nofollow" target="_blank">About Tencent</a> | <a href="http://www.qq.com/contract.shtml" rel="nofollow" target="_blank">服务条款</a> | <a href="http://www.tencentmind.com/" rel="nofollow" target="_blank">广告服务</a> | <a href="http://hr.tencent.com/" rel="nofollow" target="_blank">腾讯招聘</a> | <a href="http://service.qq.com/" rel="nofollow" target="_blank">客服中心</a> | <a href="http://www.qq.com/map/" rel="nofollow" target="_blank">网站导航</a>
+		</div>
+		<div class="copyrighten">Copyright © 1998 - <span><script>document.write(new Date().getFullYear());</script></span> Tencent. <a target="_blank" href="http://www.tencent.com/en-us/le/copyrightstatement.shtml" rel="nofollow">All Rights Reserved.</a></div>
+		<div class="copyrightzh">腾讯公司 <a target="_blank" href="http://www.tencent.com/zh-cn/le/copyrightstatement.shtml" rel="nofollow">版权所有</a> <a target="_blank" href="http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm" rel="nofollow">腾讯网络文化经营许可证</a></div>
+		</div>
+	</div>
+</div><!--[if !IE]>|xGv00|1d462091217ca7ffe25954ed675503d0<![endif]-->
+<!--修改资料的浮层-->
+<div id="editProfilePop" class="mod_pop" style="display:none;position:fixed;_position:absolute;top:50%;left:50%;margin:-320px 0 0 -285px; width:640px;">
+	<iframe src="about:blank" frameborder="0" class="iframe_mask_pop"></iframe>
+	<div class="mod_pop_hd" style="position:relative; z-index:101;">
+		<h3></h3>
+		<a href="javascript:;" class="mod_pop_close">关闭</a>
+	</div>
+	<div class="mod_diglog mod_upload_filed">
+		<div class="cont_title"><h3>修改资料：</h3></div>
+		<div class="mod_form dialog_form" style="position:relative; z-index:101;">
+		<form>
+		<ul>
+		<li class="list_item">
+		<label class="form_tit">频道名称</label>
+		<div class="title_wrap">
+		<span class="title_inner" style="display:;" id="vpp_nick">宝宝爱看动画</span>
+		<span class="title_tips"><i class="icon_qq_small"></i><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=800079372&f=1&ty=1&ap=000011:400999:|a:-1|f:Gtxsp" class="tips_inner" target="_blank">联系原创助手修改频道名称</a></span>
+		</div>
+		</li>
+		<li class="list_item">
+		<label class="form_tit">一句话简介</label>
+		<div class="form_wrap">
+		<input type="text" class="form_txt" id="vpp_motto" name="vpp_motto" value="" />
+		<span class="form_txt_num">还可以输入30个字</span>
+		<div class="form_tips" style="display:none;"><div class="form_tips_right"><span class="form_tips_right_txt">简介有点长，删减一些字数吧</span><span class="form_tips_right_num"><span class="num_error">35</span>/21</span></div></div>
+		</div>
+		</li>
+		<li class="list_item">
+		<label class="form_tit">我的链接</label>
+		<ul class="mod_myurl">
+		<li class="items"><i class="icon_tqq_small"></i><span class="items_inner">http://t.qq.com/</span><input type="text" class="form_txt form_tqq" id="vpp_link_tqq" name="vpp_link_tqq" value="" /></li>
+		<li class="items"><i class="icon_qzone_small"></i><span class="items_inner">http://user.qzone.qq.com/</span><input type="text" class="form_txt form_qzone" id="vpp_link_qzone" name="vpp_link_qzone" value="" /></li>
+		</ul>
+		</li>
+		</ul>
+		</form>
+		</div>
+	</div>
+	<div class="form_tips submit_tips" style="display:none; text-align: center"></div>
+	<div class="mod_pop_ft" style="position:relative; z-index:101;">
+		<a class="btn_strong action_ok" href="javascript:;" target="_self"><span>确定</span></a>
+		<a class="btn_normal action_close" href="javascript:;"><span>取消</span></a>
+	</div>
+	<!-- <iframe scrolling="no" id="ipop_iframe" style="width: 540px; height: 629px; top: 0px; left: 0px; border: none; z-index: 100; position: absolute;"></iframe> -->
+</div>
+<!--修改资料的浮层-->
+<!--修改头像的浮层-->
+<div id="editAvatarPop" class="mod_pop" style="display:none;position:fixed;_position:absolute;top:50%;left:50%;margin:-285px 0 0 -285px;width:570px;">
+	<iframe src="about:blank" frameborder="0" class="iframe_mask_pop"></iframe>
+	<div class="mod_pop_hd" style="position:relative; z-index:101;">
+		<h3></h3>
+		<a href="javascript:;" class="mod_pop_close">关闭</a>
+	</div>
+	<div class="mod_diglog mod_upload_filed">
+		<div class="cont_title"><h3>修改头像：</h3></div>
+	</div>
+	<div class="dialog_form" style="width:570px;height:362px;position:relative;z-index:101">
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="570" height="362" id="PicUpload" align="middle">
+		<param name="allowScriptAccess" value="always" />
+		<param name="allowFullScreen" value="true" />
+		<param name="movie" value="http://qzs.qq.com/tencentvideo_v1/swf/VPlusHeadUpload.swf" />
+		<param name="quality" value="high" />
+		<param name="wmode" value="transparent" />
+		<param name="bgcolor" value="#000000" />
+		<embed id="PicUpload" src="http://qzs.qq.com/tencentvideo_v1/swf/VPlusHeadUpload.swf" quality="high" bgcolor="#000000" wmode="transparent" width="570" height="362" name="PicUpload" align="middle" menu="true" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+		</object>
+	</div>
+</div>
+<!--修改头像的浮层-->
+<div class="mod_pop" style="width:370px; margin-left:-185px; margin-top:-60px; display:none;" id="tips_common_pop_ok">
+	<iframe src="about:blank" frameborder="0" class="iframe_mask_pop"></iframe>
+	<div class="mod_pop_hd">
+		<h3></h3>
+	</div>
+	<div class="mod_pop_bd">
+		<div class="mod_diglog mod_diglog_notice_success">
+		<div class="diglog_alert">
+		<div class="diglog_alert_inner">
+		<div class="icon"><i class="icon_hint_succeed"></i></div>
+		<div class="text">
+		<h4 class="title _content"></h4>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="mod_pop" style="width:370px; margin-left:-185px; margin-top:-60px; display:none;" id="tips_common_pop_alert">
+	<iframe src="about:blank" frameborder="0" class="iframe_mask_pop"></iframe>
+	<div class="mod_pop_hd">
+		<h3></h3>
+	</div>
+	<div class="mod_pop_bd">
+		<div class="mod_diglog mod_diglog_notice_success">
+		<div class="diglog_alert">
+		<div class="diglog_alert_inner">
+		<div class="icon"><i class="icon_hint_warn"></i></div>
+		<div class="text">
+		<h4 class="title _content"></h4>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="mod_pop_mask" id="global_mask_pop" style="display:none;"></div>
+<!--设置公告浮层-->
+<div class="mod_pop" id="editGonggaoPop" style="margin-left: -185px; margin-top: -150px; display:none;">
+	<iframe src="about:blank" frameborder="0" class="iframe_mask_pop" style=""></iframe>
+	<div class="mod_pop_hd">
+		<h3></h3>
+		<a href="javascript:;" class="mod_pop_close _close">关闭</a>
+	</div>
+	<div class="mod_diglog mod_diglog_notice_edit">
+		<h3 class="notice_title">公告栏</h3>
+		<div class="notice_cont">
+		<div class="notice_textarea">
+		<textarea tabindex="1" class="_notice_content"></textarea>
+		</div>
+		</div>
+		<p class="notice_info">
+		<span class="info_txt"><span class="num">0</span>/200</span>
+		</p>
+	</div>
+	<div class="mod_pop_ft">
+		<a class="btn_strong _submit" href="javascript:;"><span>发布</span></a>
+	</div>
+</div>
+<div class="mod_backtop mod_backtop_notice">
+  <div class="backtop_inner">
+  <a href="javascript:;" class="backtop_item backtop_item_top" title="返回顶部" id="btn_backtop"><i class="ico_top"></i><div class="item_inner">返回顶部</div></a>
+  <a href="javascript:;" class="backtop_item backtop_item_set" title="设置" id="btn_setxxoo" style="display:none;"><i class="ico_set"></i><div class="item_inner">设置</div></a>
+	 <div class="mod_notice_set">
+		<div class="notice_set">
+		<div class="set_info cf">
+		<span class="txt">公告栏</span>
+		<a href="javascript:;" class="btn_show">显示</a>
+		</div>
+		<div class="set_info cf" style="display:none;">
+		<span class="txt">打赏/粉丝贡献榜</span>
+		<a href="javascript:;" class="btn_hidden">隐藏</a>
+		</div>
+		</div>
+		<div class="notice_bg"></div>
+		</div>
+	</div>
+</div>
+<script type="text/tpl" id="videolst_tpl">
+{for item in videolst}
+<li class="list_item">
+	<a href="${item.url}" title="${item.title}" class="figure" tabindex="-1" target="_blank">
+		<img src="${item.pic}" alt="" data-pinit="registered" onerror="picerr(this, 2);"/>
+		<span class="figure_mask"><em class="mask_txt">${item.duration}</em></span>
+	</a>
+	<strong class="figure_title figure_title_two_row"><a href="${item.url}" target="_blank">${item.title}</a></strong>
+	<div class="figure_info">
+		<span class="figure_info_play"><i class="ico_play_12"></i><span class="info_inner">${item.play_count}</span></span>
+		<span class="figure_info_time">${item.uploadtime}</span>
+	</div>
+</li>
+{/for}
+</script>
+<script type="text/javascript" src="http://qzs.qq.com/tencentvideo_v1/js/txv.core.min.js?t=20160324"></script>
+<script type="text/javascript" src="http://qzs.qq.com/tencentvideo_v1/js/txv.vchannel.extend.min.js?t=20160324"></script>
+<script type="text/javascript">
+	var g_config = {
+		visited_uin : '1135167585',
+		visited_euin : '27ede8eb3593fc2ab1f4158faf187d3f',
+		visited_addr : 'http://v.qq.com/vplus/27ede8eb3593fc2ab1f4158faf187d3f',
+		visited_purl : 'url=27ede8eb3593fc2ab1f4158faf187d3f\x2Fvideos',
+		userInfo : {
+		nick : "宝宝爱看动画",
+		avatar : "http://inews.gtimg.com/newsapp_ls/0/2756647108_200200/0",
+		motto : "",
+		info : "快让宝宝进来看看动画吧！",
+		pic_bg : "",
+		social_network : {weibo:"",qq:""},
+		dress : {top:"",fixed:""}
+		}
+	};
+	!function(){function b(a,b){var c,d;a?(document.getElementById("headBgMod").parentNode.removeChild(document.getElementById("headBgMod")),b&&(b.faceImageUrl&&document.getElementById("userAvatar").setAttribute("src",b.faceImageUrl),b.activityInfo&&(document.getElementById("userInfoTag").innerHTML=b.activityInfo.personalityTag,c=b.activityInfo,d='<span class="icon_label icon_label_'+c.childActivityId+'"><span class="num">',d+=1==c.userStatus?"65强":"NO."+(c.activityRank<10?"0":"")+c.activityRank,d+='</span></span><span class="fire_num"><i class="icon_fire"></i><span class="num">'+c.popularity+"</span>"+"</span>",1!=c.userStatus&&b.account&&0==b.account.type&&b.account.id&&(d+='<a href="javascript:;" class="btn_support" id="userSupport">支持他</a>'),document.getElementById("userInfoLabel").innerHTML=d)),document.getElementById("headBgMod_mrzz_bg").style.visibility="visible",document.getElementById("headBgMod_mrzz").style.visibility="visible"):(document.getElementById("headBgMod_mrzz_bg").parentNode.removeChild(document.getElementById("headBgMod_mrzz_bg")),document.getElementById("headBgMod_mrzz").parentNode.removeChild(document.getElementById("headBgMod_mrzz")))}function c(a){if(a){var a=JSON.parse(a);if(a&&a.data&&a.data.userInfo&&a.data.userInfo.activityInfo&&a.data.userInfo.activityInfo.activityId&&("10000"==a.data.userInfo.activityInfo.activityId||"10001"==a.data.userInfo.activityInfo.activityId))return b(!0,a.data.userInfo),g_config.mrzzJson=a,void 0}g_config.mrzzJson=1,b(!1)}"function"!=typeof Array.prototype.map&&(Array.prototype.map=function(a,b){var d,e,c=[];if("function"==typeof a)for(d=0,e=this.length;e>d;d++)c.push(a.call(b,this[d],d,this));return c});var a;a=window.XMLHttpRequest?new XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP"),"Microsoft Internet Explorer"!=navigator.appName||"7."!=navigator.appVersion.match(/7./i)&&"8."!=navigator.appVersion.match(/8./i)&&"9."!=navigator.appVersion.match(/9./i)?a.onreadystatechange=function(){if(4==a.readyState){var b=!1;200==a.status&&a.responseText&&(b=a.responseText),c(b)}}:(a=new XDomainRequest,a.onload=function(){c(a.responseText)}),a.open("POST","//access.video.qq.com/qqlive/get_activity_user_info?vappid=18599720&vsecret=fd74d35ed80ecc2e79a56232231c63e0fe9b927d4daa69bd&callback=func&raw=1"),a.withCredentials=!0,a.send(JSON.stringify({account:{type:1,id:g_config.visited_uin},from:4}))}();
+</script>
+<script type="text/javascript">
+	function pageInit(){
+		$j("#pagetype_tab").find("li").click(function(){
+		var me = $j(this);
+		me.parent().find('li').removeClass('current');
+		me.addClass('current');
+		});
+	}
+seajs.config(
+	{
+		paths:{'vm':'http://vm.gtimg.cn/tencentvideo'},
+		alias:{
+		"txv_vchannel_main":"http://vm.gtimg.cn/tencentvideo/script/vplus/vchannel/v2/main.js"
+		}
+	}
+);
+seajs.use("txv_vchannel_main",function(vchannel){
+	vchannel.init({
+		userInfo : {
+		nick : "宝宝爱看动画",
+		avatar : "http://inews.gtimg.com/newsapp_ls/0/2756647108_200200/0",
+		motto : "",
+		pic_bg : "",
+		social_network : {weibo:"",qq:""},
+		dress : {top:"",fixed:""}
+		},
+		pageConfig : {
+		pagerEleId : 'mode_page_list',
+		page:'video'
+		},
+		dataConfig : {
+		totalVideoNum : '1387',
+		pageSize : 24
+		},
+		pagerAndSortConfig : {
+		initFlag : true,
+		qm : 1,
+		sorttype : 0,
+		pagerContId : 'mode_page_list',
+		tplId : 'videolst_tpl',
+		contId : 'videolst_cont'
+		}
+	});
+});
+</script>
+</body>
+</html>
+<!-- 0.099:0 -->

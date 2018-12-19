@@ -56,6 +56,9 @@ do
 		echo -e "$time-----$dura-----------$vid" >> $log
 		echo downloading
 		./you-get https://www.youtube.com/watch?v="$vurl" -o $vdir
+	else
+		echo "duration is out of range"
+		echo -e "$time-----$dura------$vurl" >> $log
 	fi
 	i=`expr $i + 1 `
 done

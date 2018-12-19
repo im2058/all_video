@@ -42,6 +42,9 @@ do
 		echo -e "$time-----$dura------$vurl" >> $log
 		echo downloading
 		./you-get $vurl -o $vdir
+	else
+		echo "duration is out of range"
+		echo -e "$time-----$dura------$vurl" >> $log
 	fi
 	i=`expr $i + 1 `
 done

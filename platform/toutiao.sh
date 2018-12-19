@@ -43,6 +43,9 @@ do
 		echo downloading
 #		./you-get https://www.ixigua.com/a"$vid"
 		bash xigua.sh  https://www.ixigua.com/a"$vid" $vdir
+	else
+		echo "duration is out of range"
+		echo -e "$time-----$dura------$vurl" >> $log
 	fi
 	i=`expr $i + 1 `
 done
