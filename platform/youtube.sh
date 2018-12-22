@@ -4,11 +4,18 @@
 rm -rf ../download/sslocal.log
 sslocal -c ../download/config.json.txt !&> ../download/sslocal.log &
 source ../config/privoxy_rc
+n=0
 grep -iq "starting" ../download/sslocal.log
 while [[ $? = 1 ]]
 do
 	sleep 1s
 	echo loop
+	n=`expr $n + 1`
+	echo $n
+	if (( $n > 50 )); then
+		echo sslocal_fail
+		exit
+	fi
 	grep -iq "starting" ../download/sslocal.log
 done
 echo "sslocal starting succssefully!!"
