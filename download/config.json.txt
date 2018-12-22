@@ -1,9 +1,9 @@
 {
     "server":"qq.door1.ml",
-    "server_port":10010,
+    "server_port":10000,
     "local_address": "127.0.0.1",
     "local_port":1080,
-    "password":"test1m",
+    "password":"qaz112233",
     "timeout":300,
     "method":"aes-256-cfb",
     "fast_open": false,

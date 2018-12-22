@@ -41,8 +41,8 @@ do
 	elif (( "$second_dura" > "$dura_b" )) && (( "$second_dura" < "$dura_e" )); then
 		echo -e "$time-----$dura------$vurl" >> $log
 		echo downloading
-#		./you-get https://www.ixigua.com/a"$vid"
-		bash xigua.sh  https://www.ixigua.com/a"$vid" $vdir
+		./you-get https://www.ixigua.com/a"$vid" -o $vdir
+#		bash xigua.sh  https://www.ixigua.com/a"$vid" $vdir
 	else
 		echo "duration is out of range"
 		echo -e "$time-----$dura------$vurl" >> $log
