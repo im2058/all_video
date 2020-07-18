@@ -2,8 +2,8 @@
 
 ################################## 
 rm -rf ../download/sslocal.log
-sslocal -c ../download/config.json.txt !&> ../download/sslocal.log &
-source ../config/privoxy_rc
+#sslocal -c ../download/config.json.txt !&> ../download/sslocal.log &
+#source ../config/privoxy_rc
 n=0
 grep -iq "starting" ../download/sslocal.log
 while [[ $? = 1 ]]
@@ -44,6 +44,14 @@ wget $homepage -O tmp_youtube
 dura_arr=`grep "aria-label=" tmp_youtube | grep "video-time" | sed 's/.*aria.*">\(.*\)<\/span><.*/\1/g'`
 vurl_arr=`grep -i 'Queue" data-video-ids=' tmp_youtube | sed 's/.*eue" data-video-ids="\(.*\).*but.*/\1/g' | sed 's/".*//g'`
 time_arr=`grep 'lockup-meta-info' tmp_youtube | sed 's/.*li><li>\(.*\)<\/li.*/\1/g' | sed 's/ /-/g'`
+
+# update 0718/2020, in server
+sed -i s/watch?/\\nwatch?/g tmp_youtube
+dura_arr=`grep -i 'watch?' tmp_youtube | sed 's/.*"simpleText":"\(.*\)"},"style":"DE.*/\1/g'`
+vurl_arr=`grep -i 'watch?' tmp_youtube | sed 's/.*watch?v=\(.*\)","webPage.*3832.*/\1/g'`
+time_arr=`grep 'lockup-meta-info' tmp_youtube | sed 's/.*li><li>\(.*\)<\/li.*/\1/g' | sed 's/ /-/g'`
+//
+
 i=1
 for dura in ${dura_arr}
 do
